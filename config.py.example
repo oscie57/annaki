@@ -1,0 +1,25 @@
+# Flask config
+HOST = "127.0.0.1"
+PORT = 80
+DEBUG = False
+
+# ACDP config
+CLOUD_URL = "https://cloud.oscie.net/acdp"
+volume = 25
+roost = True
+debug_ip = "127.0.0.1"
+
+KEYWORDS_SNOW = [
+    # DO NOT MODIFY
+    "snow",
+    "blizzard",
+    "snowstorm",
+]
+KEYWORDS_RAIN = [
+    # DO NOT MODIFY
+    "rain",
+    "mist",
+    "shower",
+    "drizzle",
+    "mist"
+]
